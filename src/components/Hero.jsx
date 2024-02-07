@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="h-screen  flex items-center text-center flex-col justify-center gap-5">
+    <div name="home" className="h-screen  flex items-center text-center flex-col justify-center gap-5">
       <h1 className="text-[50px] leading-[60.51px] font-semibold">
         It doesn't matter what <span className="text-[#FFFF00]"> JS <br />
         Framework </span>you work with
