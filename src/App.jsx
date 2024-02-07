@@ -6,7 +6,7 @@ import Support from "./components/Support";
 import Footer from "./components/Footer";
 
 function App() {
-  return <div className=" mx-auto px-72 py-5 bg-black text-white ">
+  return <div className=" mx-auto px-52 py-5 bg-black text-white ">
     <Navbar />
     <Hero />
     <Support />

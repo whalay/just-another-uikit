@@ -2,7 +2,10 @@ import React from "react";
 
 const About = () => {
   return (
-    <div name="about" className="h-screen flex flex-col  justify-center  text-left ">
+    <div
+      name="about"
+      className="h-screen flex flex-col  justify-center  text-left "
+    >
       <h1 className="text-[40px] leading-[48.41px] font-bold">About</h1>
       <p className="text-[16px] leading-[19.36px] font-bold py-5">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -21,7 +24,7 @@ const About = () => {
         sagittis nisl. Interdum posuere lorem ipsum dolor. Dolor magna eget est
         lorem ipsum dolor. Nibh nisl condimentum id venenatis.
       </p>
-      <p className="text-[16px] leading-[19.36px] font-bold">        
+      <p className="text-[16px] leading-[19.36px] font-bold">
         Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque
         habitant. Interdum consectetur libero id faucibus nisl tincidunt eget
         nullam non. Mi bibendum neque egestas congue quisque egestas diam in
