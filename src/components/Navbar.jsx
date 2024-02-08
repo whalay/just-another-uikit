@@ -5,24 +5,24 @@ const Navbar = () => {
     <div className="flex justify-between items-center text-white">
       <p className="text-[20px] leading-[24.2px] font-bold">JustAnotherUIKit</p>
       <ul className="text-[16px] leading-[19.36px] flex gap-10">
-        <li>
+        <li className="cursor-pointer">
           <Link to="home" smooth={true} offset={50} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className="cursor-pointer">
           {" "}
           <Link to="about" smooth={true} offset={50} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className="cursor-pointer">
           {" "}
           <Link to="contact" smooth={true} offset={50} duration={500}>
             Contact
           </Link>
         </li>
-        <li>
+        <li className="cursor-pointer">
           <Link to="blog" smooth={true} offset={50} duration={500}>
             Blog
           </Link>
