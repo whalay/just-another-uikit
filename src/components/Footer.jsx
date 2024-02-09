@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-<div className="h-screen flex flex-col justify-center items-center">
+<div className=" flex flex-col justify-center items-center">
 <div className=" flex justify-center items-start gap-20">
       <ul className="text-[20px] leading-[24.2px]">
         <li className="font-bold">Lorem</li>
